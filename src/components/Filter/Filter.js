@@ -4,15 +4,7 @@ import StarRatingComponent from "react-star-rating-component";
 
 
 const Filter = ({updateinput,updaterate,rate}) => {
-  /*<select className="search-rate" defaultValue={0} onChange={(e)=>updaterate(e.target.value)}>
-          <option value ={0} >Search with rate</option>
-              <option >1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-          </select>
-           */ 
+  
               
   return (
     <div className="search-header">

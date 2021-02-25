@@ -4,6 +4,8 @@ import MovieDescription from "./components/MovieDescription/MovieDescription";
 import "./App.css";
 import { Route, Switch } from "react-router-dom";
 
+import Footer from "./components/Footer/Footer";
+
 function App() {
   return (
     <React.Fragment>
@@ -11,6 +13,7 @@ function App() {
         <Route path="/" exact component={MovieList} />
         <Route path="/movie/:id" component={MovieDescription} />
       </Switch>
+      <Footer />
     </React.Fragment>
   );
 }
